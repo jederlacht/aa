@@ -1,0 +1,189 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	outline:0;
+}
+body{
+	background:#ffffff;
+	margin:0 auto;
+}
+#header{
+	height:470px;
+}
+.head-line{
+	height:400px;
+	margin:0 auto;
+	width: 1024px;
+}
+
+#head-menu{
+	height:55px;
+	background:url(../images/head-menu.jpg) repeat-x;
+}
+#wrapper{
+width=1024px;
+}
+.navigation{
+	width:1024px;
+	height:55px;
+	margin:0 auto;
+	background:url(../images/head-menu.jpg) repeat-x;
+}
+.top-menu{
+	margin-left:1px;
+	width:850px;
+	list-style:none;
+	height:40px;
+	padding-top:15px;
+	float:left;
+
+}
+.top-menu li{
+	float:left;
+	height:30px;
+	
+}
+
+
+.top-menu li a{
+	display:block;
+	padding-left:10px;
+	padding-right:10px;
+	color:#555555;
+	text-decoration:none;
+	font:27px Gungsuh;
+	font-weight:bold;
+	padding-bottom:2px;
+}
+.top-menu li a:hover, .top-menu li a:active{
+	color:#000000;
+}
+.top-menu li a:hover, .top-menu li.current a {
+	color:#000; 
+	text-decoration:underline;
+}
+
+.social-menu{
+	width:165px;
+	list-style:none;
+	height:40px;
+	padding-top:15px;
+	float:right;
+}
+.social-menu li {
+	float:left;
+	height:30px;
+}
+.social-menu li a{
+	display:block;
+	padding-left:6px;
+	padding-bottom:2px;
+}
+.all_wrap{
+	margin:0 auto;
+	width:1024px;
+	margin 0 auto;
+}
+.table_wrap{
+	padding-left: 15px;
+	width: 1000px;
+}
+.tour_table{
+	border-collapse:collapse;
+	font-size: 25px;
+	font-family: Gungsuh;
+	width: 1000px;
+}
+
+.tour_table tr.grey{
+	background: #dfdfdf;
+}
+.tour_table tr th{
+	color: grey;
+}
+.tour_table tr td{
+
+	padding: 5px;
+	text-align: left;
+}
+.memb_block{
+	text-align: left;
+	width: 1024px;
+	
+	float:left;
+}
+.memb_info{
+	font:20px Gungsuh;
+	width:224px;
+	float:left;
+}
+.memb_photo{
+	width:800px;
+	height:600px;
+	float:right;
+}
+.album{
+	text-align: left;
+	width: 1024px;	
+	float:left;
+	padding-bottom:50px;
+}
+.cover{
+	font:20px Gungsuh;
+	width:400px;
+	float:left;
+}
+.track_list{
+	width:624px;
+	float:right;
+}
+.track_list table {
+color:#555555;
+font-family:Gungsuh;
+font-size:20px;
+max-width: 624px;
+width: 100%;
+border-collapse: collapse;
+margin: 0 0 40px 0;
+}
+.track_list table td{
+padding:6px 6px 6px 3px;
+}
+.track-title{
+	color:black;
+}
+.memb_photo_small{
+	width:800px;
+	height:300px;
+	float:right;
+}
+.memb_block_alt{
+	text-align: right;
+	width: 1024px;
+	height: 600px;
+	float:right;
+}
+.memb_block_alt div.memb_info{
+	width:224px;
+	float:right;
+}
+.memb_block_alt div..memb_photo{
+	width:800px;
+	height:600px;
+	float:left;
+}
+#footer{
+width:1024px;
+margin:0 auto;
+}
+.copyleft{
+	height:40px;
+
+}
+.copy{
+	padding-top:20px;
+	font:7px;
+	text-align: center;
+}
+

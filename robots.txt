@@ -1,0 +1,15 @@
+User-agent: Yandex
+Disallow: /mp3
+Disallow: /swf
+Host: asking-alexandria.bl.ee
+
+User-agent: Googlebot
+Disallow: /mp3
+Disallow: /swf
+
+User-agent: *
+Disallow: /mp3
+Disallow: /swf
+Crawl-delay: 5
+
+Sitemap: http://asking-alexandria.bl.ee/sitemap.xml
